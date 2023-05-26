@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SVG Objects</title>
+  <style>
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 50%;
+    }
+
+    #svgContainer {
+      width: 500px;
+      height: 500px;
+      border: 1px solid #ccc;
+    }
+
+    table {
+      width: 500px;
+      height: auto;
+      overflow: scroll;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row">
+    <section class="column">
+      <svg id="svgContainer"></svg>
+    </section>
+
+    <section class="column">
+      <table id="tblContainer">
+        <thead>
+          <tr>
+            <td>object</td>
+            <td>name</td>
+            <td>type</td>
+            <td>price</td>
+            <td>status</td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+  <script>
+    init();
+  </script>
+</body>
+
+</html>
